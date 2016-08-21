@@ -13,7 +13,7 @@
   },
   "name": "orgdeps",
   "description": "Returns all of a GitHub Organization's Node.js dependencies in a Unix friendly way",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "main": "index.js",
   "devDependencies": {},
   "repository": {
