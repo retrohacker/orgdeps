@@ -6,8 +6,8 @@ const glob = require('glob')
 require('colors').enabled = true
 const argv = require('minimist')(process.argv.slice(2))
 const path = require('path')
-
-const temp_dir = path.join(__dirname, 'temp')
+const os = require('os')
+const temp_dir = path.join(os.tmpdir(), 'temp')
 
 process.on('uncaughtException', cleanup)
 process.on('exit', cleanup)
