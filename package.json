@@ -1,0 +1,37 @@
+{
+  "bin": {
+    "orgdeps": "./bin/cmd.js"
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "glob": "^7.0.5",
+    "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1",
+    "request": "^2.74.0",
+    "rimraf": "^2.5.4",
+    "simple-git": "^1.47.0"
+  },
+  "name": "orgdeps",
+  "description": "Returns all of a GitHub Organization's Node.js dependencies in a Unix friendly way",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:retrohacker/orgdeps"
+  },
+  "keywords": [
+    "GitHub",
+    "git",
+    "package.json",
+    "dependencies",
+    "organization",
+    "npm"
+  ],
+  "author": "William Blankenship <william.jblankenship@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/retrohacker/orgdeps/issues"
+  },
+  "homepage": "https://github.com/retrohacker/orgdeps"
+}
