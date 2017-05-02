@@ -1,5 +1,7 @@
 # orgdpes
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/retrohacker/orgdeps.svg)](https://greenkeeper.io/)
+
 Return all of the npm dependencies of a GitHub organization's public repositories
 
 # Installation
